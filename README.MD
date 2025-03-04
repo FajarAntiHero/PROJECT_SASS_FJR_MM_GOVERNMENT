@@ -1,7 +1,7 @@
 # 🏰 Minas Morgul Government
 > *The Shadow’s Dominion - Official Website of the Dark Realm*  
 
-![Minas Morgul](https://i.imgur.com/RF6q4Jm.jpeg)  
+![Minas Morgul](ASSETS/Hero_Background.png)  
 
 ## 📜 Deskripsi Proyek  
 **Minas Morgul Government** adalah website profil fiktif yang menggambarkan sistem pemerintahan di Minas Morgul, benteng kegelapan yang dipimpin oleh **Witch-King of Angmar**.  
