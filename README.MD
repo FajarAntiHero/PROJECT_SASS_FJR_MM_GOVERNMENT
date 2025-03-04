@@ -32,4 +32,4 @@ Website ini mencakup informasi tentang sejarah, kebijakan, pasukan, serta pencap
 ## 🚀 Cara Menjalankan Proyek  
 1️⃣ **Clone Repository**  
 ```bash
-git clone https://github.com/FajarAntiHero/minas-morgul-government.git
+git clone https://github.com/FajarAntiHero/PROJECT_SASS_FJR_MM_GOVERNMENT
