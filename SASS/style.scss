@@ -1041,3 +1041,237 @@ footer {
     }
 
 }
+
+// --- PAGE ABOUT ---
+.hero-about {
+    height: calc(100vh - 10vh);
+    // background-color: #1a402d;
+    padding: 1.5rem 2rem 1.5rem 2rem;
+    margin-bottom: 5rem;
+}
+.hero-about-content {
+    width: 100%;
+    height: 100%;
+    // background-color: blue;
+    background-image: url(../ASSETS/Nazgul.jpg);
+    background-size: cover;
+    position: relative;
+}
+
+.hero-about-content-title {
+    width: fit-content;
+    height: fit-content;
+    font-family: "Montserrat", sans-serif;
+    color: var(--Text-color);
+    position: absolute;
+    bottom: 0;
+    font-weight: 600;
+
+    &:hover {
+        color: var(--Text-color-secondary);
+        cursor: pointer;
+    }
+}
+.--title-1 {
+    width: fit-content;
+    height: fit-content;
+    padding-right: 2rem;
+    border-top-right-radius: 1rem;
+    background-color: var(--Main-color);
+    position: relative;
+
+    p{
+        font-size: 5rem;
+    }
+
+    &::before {
+        content: "";
+        width: 2rem;
+        height: 3rem;
+        background-color: transparent;
+        position: absolute;
+        top: -3rem;
+        left: 0;
+        border-bottom-left-radius: 1rem;
+        box-shadow: -5px 5px var(--Main-color);
+    }
+    &::after {
+        content: "";
+        width: 2rem;
+        height: 3rem;
+        background-color: transparent;
+        position: absolute;
+        bottom: 0;
+        right: -2rem;
+        border-bottom-left-radius: 1rem;
+        box-shadow: -5px 5px var(--Main-color);
+    }
+}
+.--title-2 {
+    width: fit-content;
+    height: fit-content;
+    padding-right: 2rem;
+    border-top-right-radius: 1rem;
+    background-color: var(--Main-color);
+    position: relative;
+
+    p{
+        font-size: 5rem;
+    }
+
+    &::after {
+        content: "";
+        width: 2rem;
+        height: 3rem;
+        background-color: transparent;
+        position: absolute;
+        bottom: 0;
+        right: -2rem;
+        border-bottom-left-radius: 1rem;
+        box-shadow: -5px 5px var(--Main-color);
+    }
+    
+}
+.hero-content-about-sub-title {
+    width: fit-content;
+    height: 20%;
+    background-color: var(--Main-color);
+    font-family: "Montserrat", sans-serif;
+    color: var(--Text-color);
+    padding-right: 2rem;
+    border-bottom-right-radius: 1rem;
+    position: relative;
+    
+    p{
+        font-size: 2rem;
+    }
+
+    &::before {
+        content: "";
+        width: 3rem;
+        height: 2rem;
+        background-color: transparent;
+        position: absolute;
+        bottom: -2rem;
+        left: 0;
+        border-top-left-radius: 1rem;
+        box-shadow: -5px -5px var(--Main-color);
+    }
+    &::after {
+        content: "";
+        width: 2rem;
+        height: 3rem;
+        background-color: transparent;
+        position: absolute;
+        top: 0;
+        right: -2rem;
+        border-top-left-radius: 1rem;
+        box-shadow: -5px -5px var(--Main-color);
+    }
+}
+.hero-content-about-information {
+    position: absolute;
+    width: 30%;
+    height: fit-content;
+    background-color: var(--Main-color);
+    top: 0;
+    right: 0;
+    font-family: "Montserrat", sans-serif;
+    color: var(--Text-color);
+    text-align: end;
+    padding-left: 2rem;
+    padding-bottom: 2rem;
+    border-bottom-left-radius: 1rem;
+
+    .information-date {
+        width: 100%;
+        height: fit-content;
+        margin-bottom: 1rem;
+
+        p {
+            font-size: 12px;
+            &:nth-child(1){
+                color: var(--Text-color-secondary);
+                font-weight: 600;
+                font-size: 1rem;
+            }
+        }
+    }
+
+    p {
+        font-size: 12px;
+    }
+
+    &::before {
+        content: "";
+        width: 2rem;
+        height: 3rem;
+        background-color: transparent;
+        position: absolute;
+        top: 0;
+        left: -2rem;
+        border-top-right-radius: 1rem;
+        box-shadow: 5px -5px var(--Main-color);
+    }
+
+    &::after {
+        content: "";
+        width: 3rem;
+        height: 2rem;
+        background-color: transparent;
+        position: absolute;
+        bottom: -2rem;
+        right: 0;
+        border-top-right-radius: 1rem;
+        box-shadow: 5px -5px var(--Main-color);
+    }
+}
+
+.hero-content-about-widget {
+    width: 10rem;
+    height: 10rem;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background-color: var(--Main-color);
+    border-top-left-radius: 2rem;
+    padding: 1rem;
+
+    div {
+        width: 100%;
+        height: 100%;
+        background-color: #1a402d;
+        border-radius: 1rem;
+        overflow: hidden;
+
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    }
+
+    &::before {
+        content: "";
+        width: 2rem;
+        height: 3rem;
+        background-color: transparent;
+        position: absolute;
+        bottom: 0;
+        left: -2rem;
+        border-bottom-right-radius: 1rem;
+        box-shadow: 5px 5px var(--Main-color);
+    }
+
+    &::after {
+        content: "";
+        width: 3rem;
+        height: 2rem;
+        background-color: transparent;
+        position: absolute;
+        top: -2rem;
+        right: 0;
+        border-bottom-right-radius: 1rem;
+        box-shadow: 5px 5px var(--Main-color);
+    }
+}
