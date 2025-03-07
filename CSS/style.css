@@ -1181,4 +1181,500 @@ footer {
   box-shadow: 5px 5px var(--Main-color);
 }
 
+.about-quick-info {
+  height: 90vh;
+  margin-bottom: 5rem;
+  padding: 1.5rem 2rem 1.5rem 2rem;
+}
+
+.quick-info-text {
+  width: 50%;
+  height: 100%;
+  padding: 1rem 2rem 1rem 2rem;
+  font-family: "Montserrat", sans-serif;
+  color: var(--Text-color);
+}
+.quick-info-text p:nth-child(1) {
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+}
+.quick-info-text p:nth-child(1) span {
+  font-weight: bold;
+  padding-inline: 1rem;
+  background-color: var(--Hover-color);
+  border-radius: 1rem;
+}
+.quick-info-text .quick-info-text-paragraph p {
+  font-size: 1rem;
+  margin-bottom: 1rem;
+  text-align: justify;
+}
+
+.quick-info-img {
+  width: 50%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.quick-info-img-container {
+  width: 95%;
+  height: 95%;
+  background-image: url(../ASSETS/Sauron-Fire.jpg);
+  background-size: cover;
+  border-radius: 0 2rem 2rem 2rem;
+  position: relative;
+}
+.quick-info-img-container .empty {
+  width: 25%;
+  height: 70%;
+  background-color: var(--Main-color);
+  border-bottom-right-radius: 2rem;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.quick-info-img-container .empty::before {
+  content: "";
+  width: 3rem;
+  height: 3rem;
+  background-color: transparent;
+  position: absolute;
+  bottom: -3rem;
+  left: 0rem;
+  border-top-left-radius: 2rem;
+  box-shadow: -10px -10px var(--Main-color);
+}
+.quick-info-img-container .empty::after {
+  content: "";
+  width: 3rem;
+  height: 3rem;
+  background-color: transparent;
+  position: absolute;
+  top: 0;
+  right: -3rem;
+  border-top-left-radius: 2rem;
+  box-shadow: -10px -10px var(--Main-color);
+}
+.quick-info-img-container .widget {
+  width: 10rem;
+  height: fit-content;
+  background-color: rgba(10, 10, 10, 0.6235294118);
+  backdrop-filter: bluer(10px);
+  border-radius: 1rem;
+  position: absolute;
+  top: 2rem;
+  right: 2rem;
+  padding: 1rem;
+}
+.quick-info-img-container .widget p {
+  font-family: "Montserrat", sans-serif;
+  font-size: 12px;
+  color: var(--Text-color);
+}
+.quick-info-img-container .widget:hover {
+  background-color: rgba(10, 10, 10, 0.8588235294);
+}
+.quick-info-img-container .img-content {
+  width: 70%;
+  height: 30%;
+  background-color: var(--Main-color);
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  border-top-left-radius: 2rem;
+  padding: 1rem 0 1rem 1rem;
+}
+.quick-info-img-container .img-content div {
+  width: 100%;
+  height: 100%;
+  border-radius: 1rem;
+  overflow: hidden;
+}
+.quick-info-img-container .img-content div img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: top;
+}
+.quick-info-img-container .img-content::before {
+  content: "";
+  width: 3rem;
+  height: 3rem;
+  background-color: transparent;
+  position: absolute;
+  bottom: 0rem;
+  left: -3rem;
+  border-bottom-right-radius: 2rem;
+  box-shadow: 10px 10px var(--Main-color);
+}
+.quick-info-img-container .img-content::after {
+  content: "";
+  width: 3rem;
+  height: 3rem;
+  background-color: transparent;
+  position: absolute;
+  top: -3rem;
+  right: 0;
+  border-bottom-right-radius: 2rem;
+  box-shadow: 10px 10px var(--Main-color);
+}
+.quick-info-img-container:hover {
+  cursor: pointer;
+}
+.quick-info-img-container:hover .widget {
+  background-color: var(--Main-color);
+}
+.quick-info-img-container:hover .widget p {
+  color: var(--Text-color-secondary);
+}
+
+.structure {
+  height: 90vh;
+  margin-bottom: 5rem;
+  justify-content: center;
+  align-items: center;
+  border-radius: 2rem;
+  position: relative;
+  overflow: hidden;
+}
+
+.border-furniture {
+  width: 9rem;
+  height: 9rem;
+  background-color: var(--Hover-color);
+  position: absolute;
+}
+.border-furniture div {
+  width: 80%;
+  height: 80%;
+  background-color: var(--Main-color);
+}
+.border-furniture:nth-child(1) {
+  top: 0;
+  left: 0;
+  align-items: end;
+  justify-content: end;
+}
+.border-furniture:nth-child(1) div {
+  border-top-left-radius: 100%;
+}
+.border-furniture:nth-child(1)::before {
+  content: "";
+  width: calc(9rem - 80%);
+  height: 2rem;
+  background-color: var(--Hover-color);
+  border-bottom-right-radius: 1rem;
+  position: absolute;
+  left: 0;
+  bottom: -1rem;
+}
+.border-furniture:nth-child(1)::after {
+  content: "";
+  width: 2rem;
+  height: calc(9rem - 80%);
+  background-color: var(--Hover-color);
+  border-bottom-right-radius: 1rem;
+  position: absolute;
+  top: 0;
+  right: -1rem;
+}
+.border-furniture:nth-child(2) {
+  top: 0;
+  right: 0;
+  align-items: end;
+  justify-content: start;
+}
+.border-furniture:nth-child(2) div {
+  border-top-right-radius: 100%;
+}
+.border-furniture:nth-child(2)::before {
+  content: "";
+  width: 2rem;
+  height: calc(9rem - 80%);
+  background-color: var(--Hover-color);
+  border-bottom-left-radius: 1rem;
+  position: absolute;
+  top: 0;
+  left: -1rem;
+}
+.border-furniture:nth-child(2)::after {
+  content: "";
+  width: calc(9rem - 80%);
+  height: 2rem;
+  background-color: var(--Hover-color);
+  border-bottom-left-radius: 1rem;
+  position: absolute;
+  right: 0;
+  bottom: -1rem;
+}
+.border-furniture:nth-child(3) {
+  bottom: 0;
+  right: 0;
+  align-items: start;
+  justify-content: start;
+}
+.border-furniture:nth-child(3) div {
+  border-bottom-right-radius: 100%;
+}
+.border-furniture:nth-child(3)::before {
+  content: "";
+  width: calc(9rem - 80%);
+  height: 2rem;
+  background-color: var(--Hover-color);
+  border-top-left-radius: 1rem;
+  position: absolute;
+  right: 0;
+  top: -1rem;
+}
+.border-furniture:nth-child(3)::after {
+  content: "";
+  width: 2rem;
+  height: calc(9rem - 80%);
+  background-color: var(--Hover-color);
+  border-top-left-radius: 1rem;
+  position: absolute;
+  bottom: 0;
+  left: -1rem;
+}
+.border-furniture:nth-child(4) {
+  bottom: 0;
+  left: 0;
+  align-items: start;
+  justify-content: end;
+}
+.border-furniture:nth-child(4) div {
+  border-bottom-left-radius: 100%;
+}
+.border-furniture:nth-child(4)::before {
+  content: "";
+  width: calc(9rem - 80%);
+  height: 2rem;
+  background-color: var(--Hover-color);
+  border-top-right-radius: 1rem;
+  position: absolute;
+  left: 0;
+  top: -1rem;
+}
+.border-furniture:nth-child(4)::after {
+  content: "";
+  width: 2rem;
+  height: calc(9rem - 80%);
+  background-color: var(--Hover-color);
+  border-top-right-radius: 1rem;
+  position: absolute;
+  bottom: 0;
+  right: -1rem;
+}
+
+.structure-content {
+  width: 80%;
+  height: 80%;
+}
+
+.citizen-container {
+  width: 100%;
+  height: fit-content;
+  background-color: var(--Hover-color);
+  margin-bottom: 5rem;
+}
+
+.citizen {
+  height: 90vh;
+}
+
+.citizen-content-image {
+  height: 100%;
+  width: 50%;
+  padding: 2rem;
+}
+.citizen-content-image div {
+  overflow: hidden;
+}
+.citizen-content-image .content-image-container {
+  width: 80%;
+  height: 100%;
+  margin: auto;
+  position: relative;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 1rem;
+}
+.citizen-content-image .content-image-container .content-image-1 {
+  width: 100%;
+  height: 50%;
+  background-image: url(../ASSETS/Sauron-armor.jpeg);
+  background-size: cover;
+  background-position-y: -5rem;
+  justify-content: end;
+  position: relative;
+  border-radius: 2rem 0 2rem 0;
+}
+.citizen-content-image .content-image-container .content-image-1 .empty {
+  width: 45%;
+  height: 45%;
+  background-color: var(--Hover-color);
+  border-bottom-left-radius: 2rem;
+}
+.citizen-content-image .content-image-container .content-image-1 .helper:nth-child(2) {
+  width: 3rem;
+  height: 3rem;
+  background-color: transparent;
+  position: absolute;
+  right: 45%;
+  box-shadow: 10px -10px var(--Hover-color);
+  border-top-right-radius: 2rem;
+}
+.citizen-content-image .content-image-container .content-image-1 .helper:nth-child(3) {
+  width: 3rem;
+  height: 3rem;
+  background-color: transparent;
+  position: absolute;
+  right: 0;
+  top: 45%;
+  box-shadow: 10px -10px var(--Hover-color);
+  border-top-right-radius: 2rem;
+}
+.citizen-content-image .content-image-container .content-image-1::before {
+  content: "";
+  width: 3rem;
+  height: 3rem;
+  background-color: transparent;
+  border-bottom-left-radius: 2rem;
+  box-shadow: -10px 10px var(--Hover-color);
+  position: absolute;
+  left: 0;
+  bottom: 48.1%;
+}
+.citizen-content-image .content-image-container .content-image-1::after {
+  content: "";
+  width: 3rem;
+  height: 3rem;
+  background-color: transparent;
+  border-bottom-left-radius: 2rem;
+  box-shadow: -10px 10px var(--Hover-color);
+  position: absolute;
+  left: 45%;
+  bottom: 0;
+}
+.citizen-content-image .content-image-container .content-image-2 {
+  width: 100%;
+  height: 50%;
+  position: relative;
+  justify-content: end;
+  align-items: end;
+  background-image: url(../ASSETS/Sauron-Fire.jpg);
+  background-size: cover;
+  background-position-y: -5rem;
+  border-radius: 0 2rem 0 2rem;
+}
+.citizen-content-image .content-image-container .content-image-2 .empty {
+  width: 50%;
+  height: 52%;
+  background-color: var(--Hover-color);
+  border-top-left-radius: 2rem;
+}
+.citizen-content-image .content-image-container .content-image-2 .helper:nth-child(2) {
+  width: 3rem;
+  height: 3rem;
+  background-color: transparent;
+  position: absolute;
+  right: 50%;
+  bottom: 0;
+  box-shadow: 10px 10px var(--Hover-color);
+  border-bottom-right-radius: 2rem;
+}
+.citizen-content-image .content-image-container .content-image-2 .helper:nth-child(3) {
+  width: 3rem;
+  height: 3rem;
+  background-color: transparent;
+  position: absolute;
+  right: 0;
+  bottom: 52%;
+  box-shadow: 10px 10px var(--Hover-color);
+  border-bottom-right-radius: 2rem;
+}
+.citizen-content-image .content-image-container .content-image-2::before {
+  content: "";
+  width: 3rem;
+  height: 3rem;
+  background-color: transparent;
+  border-top-left-radius: 2rem;
+  box-shadow: -10px -10px var(--Hover-color);
+  position: absolute;
+  left: 0;
+  top: 48.1%;
+}
+.citizen-content-image .content-image-container .content-image-2::after {
+  content: "";
+  width: 3rem;
+  height: 3rem;
+  background-color: transparent;
+  border-top-left-radius: 2rem;
+  box-shadow: -10px -10px var(--Hover-color);
+  position: absolute;
+  left: 45%;
+  top: 0;
+}
+.citizen-content-image .content-image-container .content-image-3 {
+  width: 45%;
+  height: 50%;
+  background-color: var(--Hover-color);
+  position: absolute;
+  top: 25%;
+  left: 0;
+  border-radius: 0 2rem 2rem 0;
+  padding: 1rem;
+}
+.citizen-content-image .content-image-container .content-image-3 div {
+  width: 100%;
+  height: 100%;
+  border-radius: 1rem;
+  overflow: hidden;
+}
+.citizen-content-image .content-image-container .content-image-3 div img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.citizen-content-text {
+  height: 100%;
+  width: 50%;
+  justify-content: center;
+  align-items: center;
+}
+.citizen-content-text div {
+  width: 80%;
+  height: 90%;
+  background-color: var(--Hover-color-secondary);
+  padding: 2rem;
+  border-radius: 2rem;
+}
+.citizen-content-text div p {
+  color: var(--Text-color);
+  margin-bottom: 1rem;
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  text-align: justify;
+}
+.citizen-content-text div p:nth-child(1) {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+.citizen-content-text div p:nth-child(1) span {
+  font-weight: bold;
+  padding-inline: 1rem;
+  background-color: var(--Main-color);
+  border-radius: 1rem;
+}
+.citizen-content-text div:hover {
+  cursor: pointer;
+  background-color: var(--Main-color);
+}
+.citizen-content-text div:hover p:nth-child(1) span {
+  background-color: var(--Border-color);
+  color: var(--Main-color);
+}
+
 /*# sourceMappingURL=style.css.map */
