@@ -1157,10 +1157,18 @@ footer {
   padding-inline: 1rem;
   border-radius: 2rem;
   background-color: var(--Hover-color);
+  cursor: pointer;
+}
+.main-achievement-text .content-text p:nth-child(1) span:nth-child(2):hover, .main-achievement-text .content-text p:nth-child(1) span:nth-child(3):hover {
+  background-color: var(--Hover-color-secondary);
 }
 .main-achievement-text .content-text p:nth-child(1) span:nth-child(3) {
   background-color: var(--Main-color);
   border: 2px var(--Hover-color) solid;
+}
+.main-achievement-text .content-text p:nth-child(1) span:nth-child(3):hover {
+  background-color: var(--Main-color);
+  border-color: var(--Border-color);
 }
 
 .second-achievement {
@@ -1306,6 +1314,20 @@ footer {
   box-shadow: -15px 15px var(--Main-color);
 }
 
+.second-achievement-1:hover,
+.second-achievement-2:hover {
+  background-color: var(--Hover-color);
+  cursor: pointer;
+}
+.second-achievement-1:hover .content-text,
+.second-achievement-2:hover .content-text {
+  border-color: var(--Border-color);
+}
+.second-achievement-1:hover .content-title p,
+.second-achievement-2:hover .content-title p {
+  color: var(--Text-color-secondary);
+}
+
 .third-achievement {
   height: fit;
   margin-bottom: 5rem;
@@ -1409,6 +1431,9 @@ footer {
   right: -2rem;
   top: 0;
   box-shadow: -15px -15px var(--Main-color);
+}
+.third-achievement-container:hover .content-text .content-text-title p {
+  color: var(--Hover-color-secondary);
 }
 
 /*# sourceMappingURL=style.css.map */

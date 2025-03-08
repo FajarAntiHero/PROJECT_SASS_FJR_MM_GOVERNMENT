@@ -1263,10 +1263,18 @@ footer {
                         padding-inline: 1rem;
                         border-radius: 2rem;
                         background-color: var(--Hover-color);
+                        cursor: pointer;
+                        &:hover {
+                            background-color: var(--Hover-color-secondary);
+                        }
                     }
                     &:nth-child(3){
                         background-color: var(--Main-color);
                         border: 2px var(--Hover-color) solid;
+                        &:hover{
+                            background-color: var(--Main-color);
+                            border-color: var(--Border-color);
+                        }
                     }
                 }
             }
@@ -1425,6 +1433,22 @@ footer {
 
     }
 }
+.second-achievement-1,
+.second-achievement-2 {
+    &:hover {
+        background-color: var(--Hover-color);
+        cursor: pointer;
+
+        .content-text {
+            border-color: var(--Border-color);
+        }
+        .content-title {
+            p {
+                color: var(--Text-color-secondary);
+            }
+        }
+    }
+}
 
 // --- CONTENT "THIRD ACHIEVEMENT" (PAGE achievement.html)
 .third-achievement {
@@ -1540,6 +1564,16 @@ footer {
                 right: -2rem;
                 top: 0;
                 box-shadow: -15px -15px var(--Main-color);
+            }
+        }
+    }
+
+    &:hover {
+        .content-text {
+            .content-text-title {
+                p {
+                    color: var(--Hover-color-secondary);
+                }
             }
         }
     }
