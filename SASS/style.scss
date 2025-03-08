@@ -76,6 +76,8 @@ textarea {
     display: grid;
 }
 
+// --- NAVIGATION BAR ---
+
 nav {
     width: 100%;
     height: 10vh;
@@ -145,6 +147,9 @@ nav {
     font-weight: bold;
     background-color: var(--Hover-color);
 }
+
+// ----- HEADER (PAGE INDEX.HTML) -----
+// ----- HERO CONTENT (PAGE INDEX.HTML) -----
 .hero {
     height: calc(100vh - 10vh);
     // max-height: calc(100vh - 4.5rem);
@@ -490,12 +495,14 @@ nav {
     }
 }
 
+// ----- SECTION -----
 section {
     width: 100%;
     height: fit-content;
     margin-bottom: 3rem;
 }
 
+// --- CONTENT "DEFINITION MINAS MORGUL" (PAGE INDEX.HTML) ---
 .definition {
     height: calc(100vh - 10vh);
     padding: 2rem;
@@ -597,6 +604,7 @@ section {
     }
 }
 
+// --- CONTENT "GALLERY MINAS MORGUL" (PAGE INDEX.HTML) ---
 .home-gallery {
     width: 100%;
     height: calc(100vh - 10vh);
@@ -723,6 +731,7 @@ section {
     }
 }
 
+// --- CONTENT "HISTORY MINAS MORGUL" (PAGE INDEX.HTML) ---
 .history-content{
     height: calc(100vh - 10vh);
     padding: 2rem;
@@ -773,11 +782,14 @@ section {
     }
 }
 
+// --- CONTENT "MESSAGE US WITH EMAIL"
 .message-section {
     height: 50vh;
     margin-bottom: 5rem;
     background-color: var(--Hover-color);
 }
+
+// --- CONTENT "QUOTE"
 .quote-section {
     height: 50vh;
     background-image: url(../ASSETS/Minas\ Morgul\ Castle.jpg);
