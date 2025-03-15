@@ -23,7 +23,8 @@ Website ini mencakup informasi tentang sejarah, kebijakan, pasukan, serta pencap
 
 ## 🔧 Teknologi yang Digunakan  
 - **HTML5** - Struktur utama website  
-- **CSS3 (Tailwind CSS)** - Styling modern dan responsif  
+- **CSS3** - Styling modern dan responsif
+- **SASS** - Css Preprocessor
 - **JavaScript** - Animasi dan interaksi sederhana  
 - **Font Awesome** - Ikon-ikon untuk mendukung tampilan  
 
