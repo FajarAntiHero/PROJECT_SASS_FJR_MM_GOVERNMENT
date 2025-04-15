@@ -1,4 +1,4 @@
-sass --watch SASS/style.scss CSS/style.css
+sass --watch SASS/preflight.scss CSS/preflight.css
 
 sass --watch SASS/news.scss CSS/news.css
 

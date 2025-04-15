@@ -33,6 +33,7 @@
     --font-3-color: rgba(31, 184, 56, 1);
     --font-3-color-hover: rgba(31, 184, 56, 0.8);
     --main-font: "Montserrat", sans-serif;
+    --footer-background-color: rgba(23, 72, 34, 0.8);
 }
 
 // HEADER TEXT
@@ -184,4 +185,76 @@ nav {
 
 .active {
     background-color: var(--navbar-item-background);
+}
+
+
+// FOOTER
+footer {
+    width: 100vw;
+    height: 90vh;
+    background-color: var(--footer-background-color);
+    padding-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    .container {
+        margin: 0 auto 0 auto;
+    }
+}
+
+.footer-menu {
+    height: 55%;
+    // background-color: grey;
+    grid-template-columns: 2fr 0.5fr 0.5fr;
+    grid-template-rows: 0.6fr 2fr 0.5fr;
+    gap: 10px;
+} 
+
+.footer-menu-item {
+    border-radius: 10px;
+
+    &:nth-child(1) {
+        grid-area: 1 / 1 / 2 / 4;
+        background-color: var(--main-background-color);
+        padding: 0 1rem;
+        align-items: center;
+        color: var(--font-2-color);
+    }
+
+    &:nth-child(2){
+        grid-area: 2 / 1 / 3 / 2;
+        background-color: var(--main-background-color);
+        color: var(--font-2-color);
+    }
+
+    &:nth-child(3){
+        grid-area: 3 / 1 / 4 / 2;
+        background-color: var(--main-background-color);
+        color: var(--font-2-color);
+    }
+
+    &:nth-child(4){
+        grid-area: 2 / 2 / 4 / 3;
+        background-color: var(--main-background-color);
+        color: var(--font-2-color);
+    }
+
+    &:nth-child(5){
+        grid-area: 2 / 3 / 4 / 4;
+        background-color: var(--main-background-color);
+        color: var(--font-2-color);
+    }
+}
+
+.footer-gallery {
+    height: 30%;
+    background-color: grey;
+    border-radius: 1rem;
+}
+
+.footer-copyright {
+    height: 8%;
+    background-color: grey;
+    border-radius: 1rem 1rem 0 0;
 }
